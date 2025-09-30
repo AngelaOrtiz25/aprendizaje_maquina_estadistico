@@ -1,22 +1,12 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Aprendizaje Maquina Estadístico"
-  navbar:
-    right:
-      - icon: github
-        href: https://github.com/AngelaOrtiz25/aprendizaje_maquina_estadistico.git
+  site-url: https://angelaortiz25.github.io/aprendizaje_maquina_estadistico/
 
 format:
   html:
     theme: cosmo
     toc: true
-    code-fold: true
-
-execute:
-  echo: true
-  warning: false
-  message: false
-
-jupyter: julia-1.11
